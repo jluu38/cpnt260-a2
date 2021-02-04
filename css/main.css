@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Montserrat:ital,wght@1,400;1,800&family=Questrial&display=swap');
+
+body {
+  margin: 0;
+  background-color: #ffd191;
+  /* display: grid; */
+  
+}
+
+/* Header */
+
+header {
+  color: #211e20;
+  font-family: 'Cutive';
+  font-weight: 800;
+  font-style: italic;
+  font-size: clamp(16px, 3vw, 2rem);
+
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+h1 a {
+  margin: 0;
+
+  color:#211e20;
+  font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
+  font-size: clamp(36px, 12vw, 7rem);
+
+  text-transform: uppercase;
+  text-shadow: 4px 5px 1px #66605c;
+}
+
+h1 a:hover {
+  color: #ff924f;
+}
+
+
+.fa-eye {
+  color: #ff924f;
+}
+
+
+/* Horizontal Nav Bar */
+
+nav {
+  display: flex;
+  justify-content: center;
+
+  background-image: url(/images/mountain-solid.svg);
+  background-size: auto;
+}
+
+
+ul li {
+  display: inline;
+  justify-content: space-evenly;
+  list-style: none;
+
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+
+
+
+a {
+  /* color: white;
+  font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
+  font-variant: small-caps;
+  font-style: italic;
+  font-weight: 700;
+  font-size: clamp(1rem, 0.4545rem + 2.7273vw, 1.6rem);
+
+  line-height: 4rem; */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BDC9B2;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.button {
+  /* border: 1.5px solid #658278; */
+  border-radius: 20%;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+.button:hover {
+  border: 1px solid white;
+  background-color: transparent;
+  font-style: normal;
+}
+
+/* Main */
+
+
+
+
+
+/* Footer */
+
+footer {
+  justify-self: center;
+  font-style: italic;
+  /* align-items: end; */
+}
+
