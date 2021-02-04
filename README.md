@@ -15,6 +15,8 @@ The goal for the site is entirely focused on advertising future/current film scr
 - Built the nav bar from scratch using both grid and flex. Went much better than last assignment.
 - But nav bar still loses it around the 430px-ish mark.
 - Couldn't figure out how to lock the hamburger menu icon down since it flits back-and-forth while hovered on. Didn't work in nor out of the nav bar grid.
+- After deployment on GH Pages, ticket svg on the nav bar does not appear, but it still appears locally
+  - tried changing the svg, adjusting HTML, and made sure mask-image was supported
 
 ## Attributions
 
