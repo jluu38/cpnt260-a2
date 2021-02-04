@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,42 +11,55 @@
 </head>
 
 <body>
-
   <header>
-    <h1><a href="#">1<i class="far fa-eye"></i><i class="far fa-eye"></i> Cinema</a></h1>
+    <h1><a href="#">1<i class="far fa-eye"><i class="far fa-eye" alt="two eyes as zeroes"></i></i> Cinema</a></h1>
     <p class="tag">One auditorium. One hundred seats.</p>
-
     <nav>
-      <ul>
-        <li><a href="https://aarcs.ca/adoptable-dogs/" target="blank">Gallery</a></li>
-        <li><a href="https://github.com/jluu38/" target="blank">Contact</a></li>
-        <li><a href="#">Login</a></li>
-        <li><a class="button" href="#"></a></li>
-      </ul>
+      <input type="checkbox" id="ham" class="cb">
+      <div class="hlogo">
+        <label for="ham"><i class="fas fa-film"></i></label>
+      </div>
+      <div class="hmenu">
+        <ul>
+          <div class="container">
+            <li><a class="item1" href="#">Coming Soon</a></li>
+            <li><a class="item2" href="#">Now Playing</a></li>
+            <li class="item4">
+              <a class="wrap" href="#">
+              <div class="tix">Tickets</div>
+              <i class="fas fa-ticket-alt button" alt="movie ticket"></i>
+              </a>
+            </li>
+            <li class="item3"><a href="#">Contact</a></li>
+          </div>
+        </ul>
+      </div>
     </nav>
-
   </header>
 
+  <main>
+    <h2>Now Playing</h2>
+    <section class="grid">
+      <section class="item one">
+        <img src="images/cracked_heart.svg" alt="broken heart">
+        <h3>Romance</h3>
+        <p>A 1995 American romantic drama film. The film follows Jesse, a young American man, and Céline, a young French woman, who meet on a train and disembark in Vienna, where they spend the night walking around the city and getting to know and falling in love with each other.</p>
+      </section>
+      <section class="item two">
+        <img src="images/unicorn.svg" alt="unicorn">
+        <h3>Fantasy</h3>
+        <p>A 2006 Spanish-Mexican dark fantasy film. The story takes place in Spain during the summer of 1944, five years after the Spanish Civil War. The narrative intertwines this real world with a mythical world centered on an overgrown, abandoned labyrinth and a mysterious faun creature, with whom the main character, Ofelia, interacts.</p>
+      </section>
+      <section class="item three">
+        <img src="images/skull.svg" alt="skull">
+        <h3>Horror</h3>
+        <p>A 1981 psychological horror drama film. The plot obliquely follows the relationship between an international spy and his wife, who begins exhibiting increasingly disturbing behavior after asking him for a divorce.</p>
+      </section>
+    </section>
+  </main>
 
-
-  <section>
-    <span class="icon solid style2 major fa-wifi"></span>
-    <h3>Amet</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-  </section>
-  <section>
-    <span class="icon solid style2 major fa-cog"></span>
-    <h3>Magna</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-  </section>
-  <section>
-    <span class="icon style2 major fa-paper-plane"></span>
-    <h3>Tempus</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-  </section>
-
-<footer class="lrow">
-  <p><small>&copy; 2021 Jessica Luu</small></p>
-</footer>
+  <footer>
+    <p><small>&copy; 2021 Jessica Luu</small></p>
+  </footer>
 </body>
 </html>
